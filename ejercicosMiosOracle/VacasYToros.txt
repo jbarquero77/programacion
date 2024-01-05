@@ -1,0 +1,25 @@
+28. Juguemos a toros y vacas. Aqui ose dejo la descripcion del juego:
+
+Toros y Vacas
+
+Toros y vacas es un juego tradicional inglés a lápiz y papel para dos jugadores cuyo objetivo es adivinar un número constituido por  cuatro dígitos. Toros y Vacas posiblemente inspiró al conocido juego Mastermind que hizo furor en los años 70 y 80. La diferencia radica en que Toros y Vacas utiliza números sobre el papel en vez de clavitos plásticos de colores sobre un tablero especial de plástico.
+
+En una hoja de papel, un jugador escribe un número de 4 dígitos y  lo mantiene en secreto. Las cifras deben ser todas diferentes, no se debe repetir ninguna dentro del mismo número. El otro jugador trata de adivinar el número secreto en varios intentos que son anotados y numerados. En cada intento anota una cifra de cuatro dígitos completa, ésta es evaluada por el jugador que guarda el número secreto. Si una cifra está presente y se encuentra en el lugar correcto es evaluada como un toro, si una cifra está presente pero se encuentra en un lugar equivocado es evaluada como una vaca. La evaluación se anota al lado del intento y es pública.
+
+ Ejemplo:
+
+     Número Secreto: 4271
+    
+Intentos      Número     Evaluación
+      1            1234         1T2V        (1 toro y 2 vacas, el toro es "2", las vacas son "4" y "1".)
+      2            5678         1T0V
+      3            9012         0T2V
+      4            9087         0T1V
+       .             ......           .......
+       .             ......           .......
+      8            4271         4T0V
+
+Al adivinarse el número termina la partida y se cambian los turnos. El jugador que adivinaba pasa a ser el que anota un nuevo número cuyo secreto guarda para que lo adivine el jugador que en la partida anterior guardaba el número secreto.
+Gana el que logra adivinar un número en la menor cantidad de intentos.
+
+Los números secretos del juego Toros y Vacas suelen ser números de 4 dígitos, pero el juego se puede jugar también con números de  3 a 6 dígitos. A mayor cantidad de dígitos aumenta la dificultad para acertar.
